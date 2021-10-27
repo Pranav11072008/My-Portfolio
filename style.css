@@ -1,0 +1,41 @@
+h1 {color:purple;
+margin-left:40px;
+}.menu{
+    margin-right:30px;
+}
+.menu a{
+    margin-left: 10px;
+}
+.header{
+    background-color:#e5b3a4;
+    display:flex;
+    justify-content:space-between;
+}
+
+.game{
+    display:flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+}
+h2,p{
+    text-align: center;
+}
+body{
+    background-color:#e03c6b
+}
+a:link{
+    color: red
+}a:visited{
+    color: seagreen;
+}.item{
+    position: relative;
+}.item p{
+position: absolute;
+top:20%;
+opacity:0;
+}.item:hover p{
+    opacity: 1;
+}.item:hover img{
+    opacity:0.3
+}
+
